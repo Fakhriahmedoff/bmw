@@ -42,7 +42,7 @@ const Cars = (cars) => {
         centered
         visible={visible}
         onOk={() => setVisible(false)}
-        onCancel={() => setVisible(false)}
+        onCancel={() => {setVisible(false);setimagesIndex(0)}}
         width={1000}
         footer={null}
       >
